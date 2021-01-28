@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="home-body" onload="wel()">
+	<div>
+		<h2 id="wlcm" class="wlcm" align="center">Welcome to the Covid-19 Quiz</h2><br>
+	</div>
+	<div class="divi">
+		<table align="right" class="tabi" id="tabl">
+			<tr class="tre">
+				<td>
+					<h3 id="qstn" align="center"></h3>
+				</td>
+			</tr>
+			<tr class="tre">
+				<td>
+					<button class="opti" id="opt1" onClick="check(this.id)"></button>
+				</td>
+				<td>
+					<button class="opti" id="opt2" onClick="check(this.id)"></button>
+				</td>
+			</tr>
+			<tr class="tre">
+				<td>
+					<button class="opti" id="opt3" onClick="check(this.id)"></button>
+				</td>
+				<td>
+					<button class="opti" id="opt4" onClick="check(this.id)"></button>
+				</td>
+			</tr>
+			<tr class="tre">
+				<td colspan="2">
+					<hr style="width: 100%">
+				</td>
+			</tr>
+			<tr class="tre">
+				<td>
+					<button id="prev" onclick="prev()">Previous</button>
+				</td>
+				<td>
+					<button id="nxt" onclick="next()">Next</button>
+				</td>
+			</tr>
+			<tr class="tre">
+				<th id="tos">Point for this Q:</th>
+				<td id="pts"></td>
+			</tr>			
+		</table>
+		<div class="ww">
+			<table class="tabi" id="tab">
+			<tr>
+				<th>Your Total Score is: </th>
+				<td class="sco" id="sco"></td>
+			</tr>
+		</table>	
+		</div>
+	</div>
+	<div>
+		<button class="start" id="start" onClick="str()">START</button>
+	</div>
+	<script type="text/javascript" src="js.js" ></script>
+</body>
+</html>

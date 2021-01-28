@@ -1,0 +1,86 @@
+input,button,select {
+  font-family: Roboto,sans-serif;
+    color: #aeaeae;
+    line-height: 1.1;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color: #eee;
+    border: 0;
+    text-rendering: auto;
+    color: initial;
+    text-shadow: none;
+    display: inline-block;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+button{
+    font-weight: 700;
+    width: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+.home-body {
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.875rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url(corona.jpeg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+
+.divi {
+  background: 0;
+  box-shadow: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 8% 0 0;
+  margin: auto;
+  margin-top: -5%;
+  margin-left: 5%;
+}
+
+.ww {
+  width: 100%;
+  margin-left: 15%;
+}
+
+.tabi{
+  margin-left: 33%;
+  padding: 20px 20px 10px;
+  font-weight: 400;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.13);
+}
+
+.wlcm {
+  font-size: 30px;
+  margin-top: 1%;
+  color: #f00;
+}
+
+.start {
+  margin-left: 46%;
+  margin top: 2%;
+}
+
+#pts, #tos{
+  padding-top: 4%;
+  font-size: 17px;
+}
+
