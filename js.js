@@ -62,7 +62,7 @@ var cor=["", "Through droplets that come from your mouth and nose when you cough
 			"All of the above", 
 			"No, not everyone with COVID19 has symptoms", 
 			"Yes, normal soap and water or hand sanitizer is enough",
-			"No, people who adhere to antiretroviral treatment (ART) and have a high CD4 count aren’t more at risk",
+			"No, people who adhere to antiretroviral treatment (ART) and have a high CD4 count arent more at risk",
 			"All of the above",
 			"No, but most people get better by themselves",
 			"You stop going to crowded places and visiting other peoples houses",
